@@ -1,0 +1,31 @@
+name: vibe
+description: Vibe is an offline Android music player built with Flutter and Dart.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  just_audio: ^0.9.39
+  audio_session: ^0.2.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.0
+  permission_handler: ^11.3.0
+  on_audio_query: ^2.9.0
+  intl: ^0.19.0
+  shared_preferences: ^2.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
